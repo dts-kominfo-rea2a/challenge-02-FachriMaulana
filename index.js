@@ -13,17 +13,25 @@
 */
 const arrayObjectPegawai = require("./data-customer.json");
 
-for (let i = 0; i < arrayObjectPegawai.length; i++) {
-  console.log(arrayObjectPegawai[i].namaDepan);
-}
+// for (let i = 0; i < arrayObjectPegawai.length; i++) {
+//   console.log(arrayObjectPegawai[i].namaDepan);
+// }
 
-for (let j = 0; j < arrayObjectPegawai.length; j++) {
-  console.log(arrayObjectPegawai[j].namaBelakang);
-}
+// for (let j = 0; j < arrayObjectPegawai.length; j++) {
+//   console.log(arrayObjectPegawai[j].namaBelakang);
+// }
 
 function lakukanLooping(arrPegawai) {
   // ! JANGAN DIMODIFIKASI
   let dataYangAkanDilooping = arrPegawai;
+
+  for (let i = 0; i < arrayObjectPegawai.length; i++) {
+    console.log(arrayObjectPegawai[i].namaDepan);
+  }
+  
+  for (let j = 0; j < arrayObjectPegawai.length; j++) {
+    console.log(arrayObjectPegawai[j].namaBelakang);
+  }
 
   /*
     TODO 1: Buatlah sebuah variabel bernama "hasilLooping" 
